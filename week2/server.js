@@ -15,7 +15,7 @@ app.get('/add', (req, res) => {
     const sum = parseFloat(num1) + parseFloat(num2);
     res.json({ result: sum });
   } else {
-    res.status(400).json({ error: 'Please provide num1 and num2 query parameters' });
+    res.status(400).json({ error: 'Please provide num1 and num2' });
   }
 });
 
@@ -26,7 +26,7 @@ app.post('/add', (req, res) => {
     const sum = parseFloat(num1) + parseFloat(num2);
     res.json({ result: sum });
   } else {
-    res.status(400).json({ error: 'Please provide num1 and num2 in the body' });
+    res.status(400).json({ error: 'Please provide num1 and num2 in the space provided' });
   }
 });
 
