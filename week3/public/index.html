@@ -8,6 +8,14 @@
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <style>
+        /* Center align the heading */
+        
+        h1 {
+          text-align: center;
+        }
+      </style>
     </head>
 
     <body>
@@ -19,17 +27,75 @@
 
       <nav>
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Logo</a>
+          <a href="#" class="brand-logo">ABC School</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
           </ul>
         </div>
       </nav>
 
       <a class="waves-effect waves-light btn" id="clickMeButton">button</a>
+      
+
+      <h1>Welcome to our School</h1>
 
 
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title text-center">Contact Us</h2>
+              <form action="#" class="form-container">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number:</label>
+                  <input type="tel" id="phone" name="phone" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+    
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Useful Links</h5>
+              <p class="grey-text text-lighten-4">Reach us with your queries about new admissions.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Principal</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Licenses</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Contacts</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2024 All rights reserved
+          <a class="grey-text text-lighten-4 right" href="#!">Creator</a>
+          </div>
+        </div>
+      </footer>
     </body>
   </html>
